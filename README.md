@@ -9,3 +9,5 @@ The global .bashrc include all the files under the $HOME/.local/bashrc.d directo
 Under this directory there's a skeleton file that has a test to check if the running 
 distribution is the one that the file applies to, and if so proceed to include 
 commands.
+
+So feel free to fork it and comment :)
