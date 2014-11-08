@@ -1,0 +1,12 @@
+#
+# ~/.bashrc.skel
+#
+
+#Get the distributions name using lsb_command
+distroName=`lsb_release -i | cut -d':' -f2 | tr -d "[:space:]" | tr "[:upper:]" "[:lower:]"`
+
+#If the distro matches this files then proceed 
+if [ "$distroName" == "skel" ]; then
+	## Specific aliases for skel
+
+fi
